@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>eherr@copado.com</contactEmail>
+    <label>Copado DX</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIC8TCCAdkCFFvs9nOb0NltrhzoHH9QLdpVL0y+MA0GCSqGSIb3DQEBCwUAMDQxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKDAZDb3BhZG8xFDASBgNVBAMMC3d3dy5jb3BhLmRvMCAXDTIzMDIxNDIyMzgwM1oYDzIxMzIwODIxMjIzODAzWjA0MQswCQYDVQQGEwJVUzEPMA0GA1UECgwGQ29wYWRvMRQwEgYDVQQDDAt3d3cuY29wYS5kbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJQQZ1IaMZ0hwhbL9PcGw3PQyQTjexKCbtHhL/QQUQUaPc5GwN0uoUXk62uaWrmR6b5DXPMRScRBo0ZokXUH+0wiKWnNWMoLC2kNY0xLQzkhO/WAxyBHQ8jmJguBNCqBd5ReAouDS3GmPjBFq3Pp2gLlCplL0e8pTbZUkN0Rmid3ejOXGlZyRi8sn43Hs7nN6dR6Oc55Z14Al7vzyBi8IjqKyOeHzNZj4Jo8M2yHGDq8aVw4XE1xNec+rn9ss+AilePXcgHn1tgH+PYkBeO2RvHhcWSXZSSyh/qUpiRfkWTuHS2qkdoqGW/NDxYdZWtV5EWos98O5HOdWCRZshadxzkCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAQLrbDaEizLE2nOFI6D/2iMoWHFLgHbFMTD6g1N77HzKtCGLiMTyqnWngCMaCPI4N6RfnyXmpXRlE3jlftuSfgCWvInBozb2JS3wW7bmgG4P+wXlYLrJdcEfeFkTdGOLN01agLnwAn62/kUoWUSNd4l1sciDGLyGHMoxvxhn8LwpJ4Gr2iynIMTXCjC7aYLgt43rHACDzk4QMIBcV+qHg5NwjodPqRYcDdIa0T1XqOptKG2L9/VRIEg9mUcsMCgY500dcfpT0/K/gUyJR8GzcdqyllATxYAhkAtsy1e3YRk7aMoPlfVaBtH3Cl4lVQqMOHGJSvRgBKCWkk9savrNTNg==</certificate>
+        <consumerKey>8f030846f94244b1841ae2f14d992e94e1b612134b9b4fbda984f6b464179d19</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
